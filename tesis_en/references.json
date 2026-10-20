@@ -1,0 +1,1341 @@
+[
+  {
+    "DOI": "10.5194/gmd-13-2109-2020",
+    "author": [
+      {
+        "family": "Baño-Medina",
+        "given": "Jorge"
+      },
+      {
+        "family": "Manzanas",
+        "given": "Rodrigo"
+      },
+      {
+        "family": "Gutiérrez",
+        "given": "José Manuel"
+      }
+    ],
+    "container-title": "Geosci. Model Dev.",
+    "id": "ref:banomedina2020",
+    "issue": "4",
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "page": "2109-2124",
+    "title": "Configuration and intercomparison of deep learning neural models for statistical downscaling",
+    "type": "article-journal",
+    "volume": "13",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          30
+        ]
+      ]
+    }
+  },
+  {
+    "DOI": "10.1029/2007JD009132",
+    "author": [
+      {
+        "family": "Chen",
+        "given": "Mingyue"
+      },
+      {
+        "family": "Shi",
+        "given": "Wei"
+      },
+      {
+        "family": "Xie",
+        "given": "Pingping"
+      },
+      {
+        "family": "Silva",
+        "given": "V. B. S."
+      },
+      {
+        "family": "Kousky",
+        "given": "V. E."
+      },
+      {
+        "family": "Higgins",
+        "given": "R. Wayne"
+      },
+      {
+        "family": "Janowiak",
+        "given": "John E."
+      }
+    ],
+    "container-title": "J. Geophys. Res. Atmos.",
+    "id": "ref:chen2008",
+    "issue": "D4",
+    "issued": {
+      "date-parts": [
+        [
+          2008
+        ]
+      ]
+    },
+    "page": "D04110",
+    "title": "Assessing objective techniques for gauge-based analyses of global daily precipitation",
+    "type": "article-journal",
+    "volume": "113",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          30
+        ]
+      ]
+    }
+  },
+  {
+    "DOI": "10.1007/978-1-4471-3675-0",
+    "author": [
+      {
+        "family": "Coles",
+        "given": "Stuart"
+      }
+    ],
+    "id": "ref:coles2001",
+    "issued": {
+      "date-parts": [
+        [
+          2001
+        ]
+      ]
+    },
+    "publisher": "Springer",
+    "publisher-place": "London",
+    "title": "An Introduction to Statistical Modeling of Extreme Values",
+    "type": "book",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          30
+        ]
+      ]
+    }
+  },
+  {
+    "DOI": "10.5194/hess-16-3383-2012",
+    "author": [
+      {
+        "family": "Gudmundsson",
+        "given": "Lukas"
+      },
+      {
+        "family": "Bremnes",
+        "given": "J. B."
+      },
+      {
+        "family": "Haugen",
+        "given": "J. E."
+      },
+      {
+        "family": "Engen-Skaugen",
+        "given": "T."
+      }
+    ],
+    "container-title": "Hydrol. Earth Syst. Sci.",
+    "id": "ref:gudmundsson2012",
+    "issue": "9",
+    "issued": {
+      "date-parts": [
+        [
+          2012
+        ]
+      ]
+    },
+    "page": "3383-3390",
+    "title": "Technical note: downscaling RCM precipitation to the station scale using statistical transformations – a comparison of methods",
+    "title-short": "Technical Note",
+    "type": "article-journal",
+    "volume": "16",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          30
+        ]
+      ]
+    }
+  },
+  {
+    "DOI": "10.1175/BAMS-D-13-00164.1",
+    "author": [
+      {
+        "family": "Hou",
+        "given": "Arthur Y."
+      },
+      {
+        "family": "Kakar",
+        "given": "Ramesh K."
+      },
+      {
+        "family": "Neeck",
+        "given": "Steven"
+      },
+      {
+        "family": "Azarbarzin",
+        "given": "Ardeshir A."
+      },
+      {
+        "family": "Kummerow",
+        "given": "Christian D."
+      },
+      {
+        "family": "Kojima",
+        "given": "Masahiro"
+      },
+      {
+        "family": "Oki",
+        "given": "Riko"
+      },
+      {
+        "family": "Nakamura",
+        "given": "Kenji"
+      },
+      {
+        "family": "Iguchi",
+        "given": "Toshio"
+      }
+    ],
+    "container-title": "Bull. Am. Meteorol. Soc.",
+    "id": "ref:hou2014",
+    "issue": "5",
+    "issued": {
+      "date-parts": [
+        [
+          2014
+        ]
+      ]
+    },
+    "page": "701-722",
+    "title": "The Global Precipitation Measurement Mission",
+    "type": "article-journal",
+    "volume": "95",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          30
+        ]
+      ]
+    }
+  },
+  {
+    "URL": "https://gpm.nasa.gov/sites/default/files/2020-05/IMERG_ATBD_V06.3.pdf",
+    "author": [
+      {
+        "family": "Huffman",
+        "given": "George J."
+      },
+      {
+        "family": "Bolvin",
+        "given": "David T."
+      },
+      {
+        "family": "Braithwaite",
+        "given": "Dan"
+      },
+      {
+        "family": "Hsu",
+        "given": "Kuolin"
+      },
+      {
+        "family": "Joyce",
+        "given": "Robert"
+      },
+      {
+        "family": "Kidd",
+        "given": "Christopher"
+      },
+      {
+        "family": "Nelkin",
+        "given": "Eric J."
+      },
+      {
+        "family": "Sorooshian",
+        "given": "Soroosh"
+      },
+      {
+        "family": "Tan",
+        "given": "Jackson"
+      },
+      {
+        "family": "Xie",
+        "given": "Pingping"
+      }
+    ],
+    "id": "ref:huffman2020",
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "publisher": "NASA",
+    "title": "NASA Global Precipitation Measurement (GPM) Integrated Multi-satellitE Retrievals for GPM (IMERG). Algorithm Theoretical Basis Document (ATBD) Version 06",
+    "type": "report",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          30
+        ]
+      ]
+    }
+  },
+  {
+    "DOI": "10.1007/s00704-022-04007-6",
+    "author": [
+      {
+        "family": "Iqbal",
+        "given": "Zafar"
+      },
+      {
+        "family": "Shahid",
+        "given": "Shamsuddin"
+      },
+      {
+        "family": "Ahmed",
+        "given": "Kamal"
+      },
+      {
+        "family": "Wang",
+        "given": "Xiaojun"
+      },
+      {
+        "family": "Ismail",
+        "given": "Tarmizi"
+      },
+      {
+        "family": "Gabriel",
+        "given": "Hamza Farooq"
+      }
+    ],
+    "container-title": "Theor. Appl. Climatol.",
+    "id": "ref:iqbal2022",
+    "issue": "3–4",
+    "issued": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "page": "1429-1446",
+    "title": "Bias correction method of high-resolution satellite-based precipitation product for Peninsular Malaysia",
+    "type": "article-journal",
+    "volume": "148",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "DOI": "10.3390/rs18142298",
+    "author": [
+      {
+        "family": "Istanto",
+        "given": "Benny"
+      },
+      {
+        "family": "Boer",
+        "given": "Rizaldi"
+      },
+      {
+        "family": "Santikayasa",
+        "given": "I Putu"
+      }
+    ],
+    "container-title": "Remote Sens.",
+    "id": "ref:istanto2026mdpi",
+    "issue": "14",
+    "issued": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "page": "2298",
+    "title": "A modular and transferable framework for enhancing satellite-derived daily precipitation: adjusting values, aligning distributions, and preserving extremes",
+    "title-short": "A Modular and Transferable Framework for Enhancing Satellite-Derived Daily Precipitation",
+    "type": "article-journal",
+    "volume": "18"
+  },
+  {
+    "DOI": "10.1029/2018JD028991",
+    "author": [
+      {
+        "family": "Li",
+        "given": "Runze"
+      },
+      {
+        "family": "Wang",
+        "given": "Kaicun"
+      },
+      {
+        "family": "Qi",
+        "given": "Dan"
+      }
+    ],
+    "container-title": "J. Geophys. Res. Atmos.",
+    "id": "ref:li2018",
+    "issue": "18",
+    "issued": {
+      "date-parts": [
+        [
+          2018
+        ]
+      ]
+    },
+    "title": "Validating the Integrated Multisatellite Retrievals for Global Precipitation Measurement in terms of diurnal variability with hourly gauge observations collected at 50,000 stations in China",
+    "type": "article-journal",
+    "volume": "123",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          6,
+          24
+        ]
+      ]
+    }
+  },
+  {
+    "DOI": "10.1175/JHM-D-15-0190.1",
+    "author": [
+      {
+        "family": "Maggioni",
+        "given": "Viviana"
+      },
+      {
+        "family": "Meyers",
+        "given": "Patrick C."
+      },
+      {
+        "family": "Robinson",
+        "given": "Monique D."
+      }
+    ],
+    "container-title": "J. Hydrometeorol.",
+    "id": "ref:maggioni2016",
+    "issue": "4",
+    "issued": {
+      "date-parts": [
+        [
+          2016
+        ]
+      ]
+    },
+    "page": "1101-1117",
+    "title": "A review of merged high-resolution satellite precipitation product accuracy during the TRMM era",
+    "type": "article-journal",
+    "volume": "17",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          30
+        ]
+      ]
+    }
+  },
+  {
+    "DOI": "10.1016/j.envc.2025.101134",
+    "author": [
+      {
+        "family": "Mashuri"
+      },
+      {
+        "family": "Karlina"
+      },
+      {
+        "family": "Sujono",
+        "given": "Joko"
+      }
+    ],
+    "container-title": "Environ. Chall.",
+    "id": "ref:mashuri2025",
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "page": "101134",
+    "title": "Assessment of satellite-based rainfall products for drought monitoring in the Siak Watershed, Indonesia",
+    "type": "article-journal",
+    "volume": "19",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "DOI": "10.1029/2018WR024090",
+    "author": [
+      {
+        "family": "Pan",
+        "given": "Baoxiang"
+      },
+      {
+        "family": "Hsu",
+        "given": "Kuolin"
+      },
+      {
+        "family": "AghaKouchak",
+        "given": "Amir"
+      },
+      {
+        "family": "Sorooshian",
+        "given": "Soroosh"
+      }
+    ],
+    "container-title": "Water Resour. Res.",
+    "id": "ref:pan2019",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    },
+    "page": "2301-2321",
+    "title": "Improving precipitation estimation using convolutional neural network",
+    "type": "article-journal",
+    "volume": "55",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          30
+        ]
+      ]
+    }
+  },
+  {
+    "DOI": "10.1126/science.1213847",
+    "author": [
+      {
+        "family": "Peng",
+        "given": "Roger D."
+      }
+    ],
+    "container-title": "Science",
+    "id": "ref:peng2011",
+    "issue": "6060",
+    "issued": {
+      "date-parts": [
+        [
+          2011
+        ]
+      ]
+    },
+    "page": "1226-1227",
+    "title": "Reproducible research in computational science",
+    "type": "article-journal",
+    "volume": "334",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          30
+        ]
+      ]
+    }
+  },
+  {
+    "DOI": "10.1007/s00704-021-03731-9",
+    "author": [
+      {
+        "family": "Rahmawati",
+        "given": "Novi"
+      },
+      {
+        "family": "Rahayu",
+        "given": "Kisworo"
+      },
+      {
+        "family": "Yuliasari",
+        "given": "Sukma Tri"
+      }
+    ],
+    "container-title": "Theor. Appl. Climatol.",
+    "id": "ref:rahmawati2021",
+    "issue": "1–2",
+    "issued": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    },
+    "page": "173-190",
+    "title": "Performance of daily satellite-based rainfall in groundwater basin of Merapi Aquifer System, Yogyakarta",
+    "type": "article-journal",
+    "volume": "146",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "DOI": "10.3390/rs14020412",
+    "author": [
+      {
+        "family": "Ramadhan",
+        "given": "Rakhmat"
+      },
+      {
+        "family": "Marzuki",
+        "given": "M."
+      },
+      {
+        "family": "Yusnaini",
+        "given": "Heri"
+      },
+      {
+        "family": "Muharsyah",
+        "given": "Robi"
+      },
+      {
+        "family": "Suryanto",
+        "given": "W."
+      },
+      {
+        "family": "Sholihun",
+        "given": "S."
+      },
+      {
+        "family": "Vonnisa",
+        "given": "Mutya"
+      },
+      {
+        "family": "Battaglia",
+        "given": "Alessandro"
+      },
+      {
+        "family": "Hashiguchi",
+        "given": "Hiroyuki"
+      }
+    ],
+    "container-title": "Remote Sens.",
+    "id": "ref:ramadhan2022",
+    "issue": "2",
+    "issued": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "page": "412",
+    "title": "Capability of GPM IMERG products for extreme precipitation analysis over the Indonesian Maritime Continent",
+    "type": "article-journal",
+    "volume": "14",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          30
+        ]
+      ]
+    }
+  },
+  {
+    "DOI": "10.3390/rs14051172",
+    "author": [
+      {
+        "family": "Ramadhan",
+        "given": "Rakhmat"
+      },
+      {
+        "family": "Yusnaini",
+        "given": "Heri"
+      },
+      {
+        "family": "Marzuki",
+        "given": "Marzuki"
+      },
+      {
+        "family": "Muharsyah",
+        "given": "Robi"
+      },
+      {
+        "family": "Suryanto",
+        "given": "Wiwit"
+      },
+      {
+        "family": "Sholihun",
+        "given": "Sholihun"
+      },
+      {
+        "family": "Vonnisa",
+        "given": "Mutya"
+      },
+      {
+        "family": "Harmadi",
+        "given": "Harmadi"
+      },
+      {
+        "family": "Ningsih",
+        "given": "Ayu Permata"
+      },
+      {
+        "family": "Battaglia",
+        "given": "Alessandro"
+      }
+    ],
+    "container-title": "Remote Sens.",
+    "id": "ref:ramadhan2022ts",
+    "issue": "5",
+    "issued": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "page": "1172",
+    "title": "Evaluation of GPM IMERG performance using gauge data over Indonesian Maritime Continent at different time scales",
+    "type": "article-journal",
+    "volume": "14",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          6,
+          4
+        ]
+      ]
+    }
+  },
+  {
+    "DOI": "10.3390/rs15041115",
+    "author": [
+      {
+        "family": "Ramadhan",
+        "given": "Ravidho"
+      },
+      {
+        "family": "Marzuki",
+        "given": "Marzuki"
+      },
+      {
+        "family": "Yusnaini",
+        "given": "Helmi"
+      },
+      {
+        "family": "Muharsyah",
+        "given": "Robi"
+      },
+      {
+        "family": "Tangang",
+        "given": "Fredolin"
+      },
+      {
+        "family": "Vonnisa",
+        "given": "Mutya"
+      },
+      {
+        "family": "Harmadi",
+        "given": "Harmadi"
+      }
+    ],
+    "container-title": "Remote Sens.",
+    "id": "ref:ramadhan2023",
+    "issue": "4",
+    "issued": {
+      "date-parts": [
+        [
+          2023
+        ]
+      ]
+    },
+    "page": "1115",
+    "title": "A preliminary assessment of the GSMaP Version 08 products over Indonesian Maritime Continent against gauge data",
+    "type": "article-journal",
+    "volume": "15",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          6,
+          24
+        ]
+      ]
+    }
+  },
+  {
+    "DOI": "10.1016/j.atmosres.2014.11.017",
+    "author": [
+      {
+        "family": "Salio",
+        "given": "Paola"
+      },
+      {
+        "family": "Hobouchian",
+        "given": "Marı́a Paula"
+      },
+      {
+        "family": "García Skabar",
+        "given": "Yanina"
+      },
+      {
+        "family": "Vila",
+        "given": "Daniel"
+      }
+    ],
+    "container-title": "Atmos. Res.",
+    "id": "ref:salio2015",
+    "issued": {
+      "date-parts": [
+        [
+          2015
+        ]
+      ]
+    },
+    "page": "146-161",
+    "title": "Evaluation of high-resolution satellite precipitation estimates over southern South America using a dense rain gauge network",
+    "type": "article-journal",
+    "volume": "163",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          6,
+          24
+        ]
+      ]
+    }
+  },
+  {
+    "DOI": "10.1201/9781315373461",
+    "editor": [
+      {
+        "family": "Stodden",
+        "given": "Victoria"
+      },
+      {
+        "family": "Leisch",
+        "given": "Friedrich"
+      },
+      {
+        "family": "Peng",
+        "given": "Roger D."
+      }
+    ],
+    "id": "ref:stodden2014",
+    "issued": {
+      "date-parts": [
+        [
+          2014
+        ]
+      ]
+    },
+    "publisher": "CRC Press",
+    "title": "Implementing Reproducible Research",
+    "type": "book",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          30
+        ]
+      ]
+    }
+  },
+  {
+    "DOI": "10.1029/2019GL085395",
+    "author": [
+      {
+        "family": "Tan",
+        "given": "Jackson"
+      },
+      {
+        "family": "Huffman",
+        "given": "George J."
+      },
+      {
+        "family": "Bolvin",
+        "given": "David T."
+      },
+      {
+        "family": "Nelkin",
+        "given": "Eric J."
+      }
+    ],
+    "container-title": "Geophys. Res. Lett.",
+    "id": "ref:tan2019",
+    "issue": "22",
+    "issued": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    },
+    "page": "13584-13592",
+    "title": "Diurnal cycle of IMERG V06 precipitation",
+    "type": "article-journal",
+    "volume": "46",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          6,
+          24
+        ]
+      ]
+    }
+  },
+  {
+    "DOI": "10.1016/j.rse.2020.111697",
+    "author": [
+      {
+        "family": "Tang",
+        "given": "Guoqiang"
+      },
+      {
+        "family": "Clark",
+        "given": "Martyn P."
+      },
+      {
+        "family": "Papalexiou",
+        "given": "Simon Michael"
+      },
+      {
+        "family": "Ma",
+        "given": "Ziqiang"
+      },
+      {
+        "family": "Hong",
+        "given": "Yang"
+      }
+    ],
+    "container-title": "Remote Sens. Environ.",
+    "id": "ref:tang2020",
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "page": "111697",
+    "title": "Have satellite precipitation products improved over last two decades? A comprehensive comparison of GPM IMERG with nine satellite and reanalysis datasets",
+    "type": "article-journal",
+    "volume": "240",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          30
+        ]
+      ]
+    }
+  },
+  {
+    "DOI": "10.1016/j.jhydrol.2012.05.052",
+    "author": [
+      {
+        "family": "Teutschbein",
+        "given": "Claudia"
+      },
+      {
+        "family": "Seibert",
+        "given": "Jan"
+      }
+    ],
+    "container-title": "J. Hydrol.",
+    "id": "ref:teutschbein2012",
+    "issued": {
+      "date-parts": [
+        [
+          2012
+        ]
+      ]
+    },
+    "page": "12-29",
+    "title": "Bias correction of regional climate model simulations for hydrological climate-change impact studies: review and evaluation of different methods",
+    "title-short": "Bias correction of regional climate model simulations for hydrological climate-change impact studies",
+    "type": "article-journal",
+    "volume": "456-457",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          30
+        ]
+      ]
+    }
+  },
+  {
+    "DOI": "10.1007/s10584-011-0224-4",
+    "author": [
+      {
+        "family": "Themeßl",
+        "given": "Matthias Jakob"
+      },
+      {
+        "family": "Gobiet",
+        "given": "Andreas"
+      },
+      {
+        "family": "Heinrich",
+        "given": "Georg"
+      }
+    ],
+    "container-title": "Clim. Change",
+    "id": "ref:themessl2012",
+    "issue": "2",
+    "issued": {
+      "date-parts": [
+        [
+          2012
+        ]
+      ]
+    },
+    "page": "449-468",
+    "title": "Empirical-statistical downscaling and error correction of regional climate models and its impact on the climate change signal",
+    "type": "article-journal",
+    "volume": "112",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          30
+        ]
+      ]
+    }
+  },
+  {
+    "DOI": "10.1016/j.atmosres.2025.108375",
+    "author": [
+      {
+        "family": "Wang",
+        "given": "Dachuan"
+      },
+      {
+        "family": "Yu",
+        "given": "Chen"
+      },
+      {
+        "family": "Yi",
+        "given": "Lin"
+      },
+      {
+        "family": "Jiang",
+        "given": "Gang"
+      },
+      {
+        "family": "Zhang",
+        "given": "Hechen"
+      }
+    ],
+    "container-title": "Atmos. Res.",
+    "id": "ref:wang2026",
+    "issued": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "page": "108375",
+    "title": "Performance validation and bias correction of IMERG precipitation data under foggy meteorological conditions in Southeast Asia",
+    "type": "article-journal",
+    "volume": "327",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "DOI": "10.1016/j.atmosres.2022.106403",
+    "author": [
+      {
+        "family": "Wei",
+        "given": "Linyong"
+      },
+      {
+        "family": "Jiang",
+        "given": "Shanhu"
+      },
+      {
+        "family": "Ren",
+        "given": "Liliang"
+      },
+      {
+        "family": "Zhang",
+        "given": "Linqi"
+      },
+      {
+        "family": "Wang",
+        "given": "Menghao"
+      },
+      {
+        "family": "Liu",
+        "given": "Yi"
+      },
+      {
+        "family": "Duan",
+        "given": "Zheng"
+      }
+    ],
+    "container-title": "Atmos. Res.",
+    "id": "ref:wei2022",
+    "issued": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "page": "106403",
+    "title": "Bias correction of GPM IMERG Early Run daily precipitation product using near real-time CPC global measurements",
+    "type": "article-journal",
+    "volume": "279",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          6,
+          24
+        ]
+      ]
+    }
+  },
+  {
+    "DOI": "10.1038/sdata.2016.18",
+    "author": [
+      {
+        "family": "Wilkinson",
+        "given": "Mark D."
+      },
+      {
+        "family": "Dumontier",
+        "given": "Michel"
+      },
+      {
+        "family": "Aalbersberg",
+        "given": "I. J."
+      },
+      {
+        "family": "Appleton",
+        "given": "Gabrielle"
+      },
+      {
+        "family": "Axton",
+        "given": "Myles"
+      },
+      {
+        "family": "Baak",
+        "given": "Arie"
+      },
+      {
+        "family": "Blomberg",
+        "given": "Niklas"
+      },
+      {
+        "family": "Boiten",
+        "given": "Jan-Willem"
+      },
+      {
+        "family": "Silva Santos",
+        "given": "Luiz Bonino",
+        "non-dropping-particle": "da"
+      },
+      {
+        "family": "Bourne",
+        "given": "Philip E."
+      },
+      {
+        "literal": "others"
+      }
+    ],
+    "container-title": "Sci. Data",
+    "id": "ref:wilkinson2016",
+    "issued": {
+      "date-parts": [
+        [
+          2016
+        ]
+      ]
+    },
+    "page": "160018",
+    "title": "The FAIR guiding principles for scientific data management and stewardship",
+    "type": "article-journal",
+    "volume": "3",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          30
+        ]
+      ]
+    }
+  },
+  {
+    "DOI": "10.1038/s41598-022-12307-0",
+    "author": [
+      {
+        "family": "Xie",
+        "given": "Wenhao"
+      },
+      {
+        "family": "Yi",
+        "given": "Shanzhen"
+      },
+      {
+        "family": "Leng",
+        "given": "Chuang"
+      },
+      {
+        "family": "Xia",
+        "given": "Defeng"
+      },
+      {
+        "family": "Li",
+        "given": "Mingli"
+      },
+      {
+        "family": "Zhong",
+        "given": "Zewen"
+      },
+      {
+        "family": "Ye",
+        "given": "Jianfeng"
+      }
+    ],
+    "container-title": "Sci. Rep.",
+    "id": "ref:xie2022",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "page": "8085",
+    "title": "The evaluation of IMERG and ERA5-Land daily precipitation over China with considering the influence of gauge data bias",
+    "type": "article-journal",
+    "volume": "12",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          6,
+          24
+        ]
+      ]
+    }
+  },
+  {
+    "DOI": "10.1016/j.jhydrol.2022.127656",
+    "author": [
+      {
+        "family": "Yang",
+        "given": "Xiaoying"
+      },
+      {
+        "family": "Yang",
+        "given": "Shuai"
+      },
+      {
+        "family": "Tan",
+        "given": "Mou Leong"
+      },
+      {
+        "family": "Pan",
+        "given": "Hengyang"
+      },
+      {
+        "family": "Zhang",
+        "given": "Hongliang"
+      },
+      {
+        "family": "Wang",
+        "given": "Guoqing"
+      },
+      {
+        "family": "He",
+        "given": "Ruimin"
+      },
+      {
+        "family": "Wang",
+        "given": "Zimeng"
+      }
+    ],
+    "container-title": "J. Hydrol.",
+    "id": "ref:yang2022",
+    "issued": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "page": "127656",
+    "title": "Correcting the bias of daily satellite precipitation estimates in tropical regions using deep neural network",
+    "type": "article-journal",
+    "volume": "608",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          1
+        ]
+      ]
+    }
+  }
+]

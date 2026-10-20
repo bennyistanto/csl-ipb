@@ -28,7 +28,7 @@ earlier version of these files, which used the Zotero repository ID, remove it a
 
 How a citation style fits in:
 
-```mermaid
+```{mermaid}
 flowchart LR
     meta["Reference metadata<br/>(BibTeX, RIS, CSL JSON)"] --> proc(["Citation processor<br/>(Zotero, Mendeley, Pandoc)"])
     style["Citation style<br/>(ipb.csl or ipb_en.csl)"] --> proc
@@ -181,6 +181,25 @@ accepted IPB thesis.
   `(Tren… 2006)`.
 
 Issues and pull requests are welcome.
+
+## Examples
+
+Two real papers show the styles on running text, with in-text citations and a full reference list:
+
+| Folder | Style | Content | Output |
+|:--|:--|:--|:--|
+| [`tesis/`](tesis/) | `ipb.csl` | Auriza Rahmad Akbar's undergraduate paper on parallel pairwise alignment (2014), in Bahasa Indonesia, from the original repository | [HTML](tesis/paper.html) |
+| [`tesis_en/`](tesis_en/) | `ipb_en.csl` | An excerpt of Benny Istanto's MSc thesis on bias correction of satellite precipitation (2026): the opening of the Summary and the Background section, with 28 references | [HTML](tesis_en/paper.html) |
+
+Each folder has the Markdown source (`paper.md`) and its references. To render one, run this from its folder:
+
+```bash
+pandoc paper.md --citeproc --mathjax -s -o paper.html
+```
+
+`tesis_en/references.json` is in CSL JSON, the format the styles read directly. It was converted from the thesis
+BibTeX file and cleaned: access dates written as ISO dates, journal-article titles in sentence case, and a few
+author names corrected.
 
 ## Testing
 
