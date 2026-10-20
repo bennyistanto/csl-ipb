@@ -251,6 +251,7 @@ references:
   volume: '34'
 
 - id: ipb_panduan_2017
+  authority: Institut Pertanian Bogor
   author:
     - family: IPB
       given: ''
@@ -263,6 +264,7 @@ references:
   type: book
 
 - id: ipb_pedoman_2019
+  authority: Institut Pertanian Bogor
   author:
     - family: IPB
       given: ''
@@ -682,6 +684,7 @@ references:
   type: article-journal
 
 - id: sscccp_recommended_1976
+  authority: Scandinavian Society for Clinical Chemistry and Clinical Physiology, Committee on Enzymes
   author:
     - literal: SSCCCP
   container-title: Scandinavian Journal of Clinical and Laboratory Investigation
@@ -814,6 +817,7 @@ references:
   volume: '1'
 
 - id: young_implementation_1987
+  references: J Nutr. 1990;120(1):20-35
   accessed:
     - year: 2020
       month: 12

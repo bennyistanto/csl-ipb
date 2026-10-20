@@ -14,7 +14,7 @@ css     : https://cdn.jsdelivr.net/gh/kognise/water.css@latest/dist/light.min.cs
 - Penulis dua orang: [@sutiawan_analisis_2017]
 - Penulis 3–10 orang: [@darusman_delayed_2014]
 - Penulis lebih dari 10 orang: [@kusrini_elevation_2017]
-- Penulis merupakan organisasi: [@sscccp_recommended_1976] 🔴 ^[langsung singkatannya saja]
+- Penulis merupakan organisasi: [@sscccp_recommended_1976]
 - Artikel tanpa nama penulis: [@noauthor_tren_2006]
 - Jenis artikel berupa editorial: [@hunter_gm_2016]
 - Jenis artikel berupa komunikasi singkat: [@wibowo_penapisan_2017]
@@ -24,15 +24,15 @@ css     : https://cdn.jsdelivr.net/gh/kognise/water.css@latest/dist/light.min.cs
 - Artikel dengan halaman terputus: [@crews_ecological_1981]
 - Terbitan sebagai sisipan, suplemen, edisi khusus: [@rifai_penggodokan_1992]
 - Judul artikel diterjemahkan ke dalam bahasa Inggris: [@ismayana_sintesis_2017]
-- Artikel cetak ulang: [@young_implementation_1987] 🔴 ^[belum didukung]
+- Artikel cetak ulang: [@young_implementation_1987]
 - Penelitian dipublikasikan, tetapi belum terbit: [@satria_seaweed_2017]
-- Artikel dari internet: [@baez_droughts_2017; @kolopaking_migrasi_2016] 🔴 ^[tanggal akses seharusnya tidak diperlukan]
+- Artikel dari internet: [@baez_droughts_2017; @kolopaking_migrasi_2016]
 
 ## Buku
 
 - Buku: [@satria_politik_2015; @dyball_understanding_2015]
 - Buku dengan editor: [@manuwoto_tantangan_2015]
-- Buku dengan lembaga atau organisasi sebagai penulis: [@ipb_panduan_2017; @ipb_pedoman_2019] 🔴 ^[langsung singkatannya saja]
+- Buku dengan lembaga atau organisasi sebagai penulis: [@ipb_panduan_2017; @ipb_pedoman_2019]
 - Buku terjemahan tanpa editor: [@pelczar_dasar-dasar_1986]
 - Buku terjemahan dengan editor: [@hart_kimia_2003]
 - Buku berseri dengan judul volume yang sama: [@wijayakusuma_tanaman_1998]

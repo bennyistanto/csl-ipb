@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" demote-non-dropping-particle="sort-only" default-locale="id-ID">
+<style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" demote-non-dropping-particle="sort-only" initialize-with-hyphen="false" default-locale="id-ID">
   <info>
     <title>Institut Pertanian Bogor: Pedoman Penulisan Karya Ilmiah Edisi ke-4 (Indonesian)</title>
-    <id>http://www.zotero.org/styles/institut-pertanian-bogor</id>
-    <link href="http://www.zotero.org/styles/institut-pertanian-bogor" rel="self"/>
+    <id>https://github.com/bennyistanto/csl-ipb/ipb.csl</id>
+    <link href="https://raw.githubusercontent.com/bennyistanto/csl-ipb/master/ipb.csl" rel="self"/>
     <link href="http://www.zotero.org/styles/apa" rel="template"/>
     <link href="http://ppki.staff.ipb.ac.id/unduhan/" rel="documentation"/>
     <link href="https://drive.google.com/file/d/0B0YEuQotqd_BQVpkR0lHNHctSHM/view" rel="documentation"/>
@@ -17,7 +17,7 @@
     </author>
     <category citation-format="author-date"/>
     <category field="science"/>
-    <updated>2020-12-14T16:00:00+07:00</updated>
+    <updated>2026-10-20T16:00:00+07:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="id">
@@ -275,7 +275,7 @@
   </macro>
   <macro name="author">
     <names variable="author" delimiter=", ">
-      <name delimiter-precedes-last="always" initialize-with="" name-as-sort-order="all" sort-separator=" "/>
+      <name delimiter-precedes-last="always" delimiter-precedes-et-al="always" initialize-with="" name-as-sort-order="all" sort-separator=" "/>
       <et-al font-style="italic"/>
       <label form="long" prefix=", " strip-periods="true"/>
       <substitute>
@@ -283,6 +283,20 @@
         <text variable="title"/>
       </substitute>
     </names>
+  </macro>
+  <macro name="author-bib">
+    <!-- organization as author: abbreviation in author, full name in Extra as "Authority: <full name>" -->
+    <choose>
+      <if variable="authority">
+        <group delimiter=" ">
+          <text macro="author" prefix="[" suffix="]"/>
+          <text variable="authority"/>
+        </group>
+      </if>
+      <else>
+        <text macro="author"/>
+      </else>
+    </choose>
   </macro>
   <macro name="author-short">
     <names variable="author">
@@ -318,6 +332,16 @@
         </group>
       </if>
     </choose>
+  </macro>
+  <macro name="accessed-date">
+    <group prefix="[" suffix="]" delimiter=" ">
+      <text term="accessed"/>
+      <date variable="accessed" delimiter=" ">
+        <date-part name="year"/>
+        <date-part name="month" form="short"/>
+        <date-part name="day"/>
+      </date>
+    </group>
   </macro>
   <macro name="title">
     <group delimiter=" ">
@@ -363,9 +387,13 @@
   </macro>
   <macro name="year-date">
     <group delimiter=" ">
-      <date variable="issued" delimiter=" ">
-        <date-part name="year"/>
-      </date>
+      <group>
+        <!-- year-suffix written out so it sits next to the year: 2023a, not 2023 a -->
+        <date variable="issued">
+          <date-part name="year"/>
+        </date>
+        <text variable="year-suffix"/>
+      </group>
       <choose>
         <if type="patent article-newspaper webpage" match="any">
           <date variable="issued" delimiter=" ">
@@ -387,10 +415,11 @@
     </group>
   </macro>
   <macro name="year">
-    <group delimiter=" ">
-      <date variable="issued" delimiter=" ">
+    <group>
+      <date variable="issued">
         <date-part name="year"/>
       </date>
+      <text variable="year-suffix"/>
     </group>
   </macro>
   <macro name="volume">
@@ -448,7 +477,7 @@
       </else>
     </choose>
   </macro>
-  <citation et-al-min="3" et-al-use-first="1" disambiguate-add-year-suffix="true" disambiguate-add-givenname="true">
+  <citation et-al-min="3" et-al-use-first="1" disambiguate-add-year-suffix="true">
     <sort>
       <key macro="year"/>
       <key macro="author-short"/>
@@ -465,10 +494,11 @@
     <sort>
       <key macro="author"/>
       <key macro="year-date"/>
+      <key variable="title"/>
     </sort>
     <layout>
       <group suffix="." delimiter=". ">
-        <text macro="author"/>
+        <text macro="author-bib"/>
         <text macro="year-date"/>
         <text macro="title"/>
       </group>
@@ -482,7 +512,7 @@
               <text macro="editor" suffix="."/>
             </group>
             <text prefix=" " macro="publisher"/>
-            <text variable="page" prefix="hlm "/>
+            <text variable="page" prefix=" hlm "/>
             <text variable="original-title" font-style="italic" prefix=" Terjemahan dari: " suffix="."/>
             <text variable="note" prefix=" Ed ke-" suffix="."/>
           </if>
@@ -516,6 +546,12 @@
                 </choose>
                 <text macro="publisher"/>
                 <text macro="pages"/>
+                <!-- abstract number: Extra "Number: <n>" -->
+                <choose>
+                  <if type="paper-conference">
+                    <text variable="number" prefix="No abstr "/>
+                  </if>
+                </choose>
               </group>
             </group>
           </else-if>
@@ -532,20 +568,38 @@
           </else-if>
           <else>
             <text variable="original-title" prefix=" [" suffix="]."/>
-            <group prefix=" " suffix=".">
+            <group prefix=" " suffix="." delimiter=". ">
+              <group>
               <text variable="container-title" form="short" font-style="italic" strip-periods="true" suffix="."/>
               <choose>
-                <!-- <if variable="status"> -->
-                <if variable="volume issue" match="none">
-                  <text term="forthcoming" prefix=", "/>
-                </if>
-                <else>
+                <if variable="volume issue page" match="any">
                   <text variable="volume" prefix=" "/>
                   <text macro="issue"/>
-                  <text variable="page" prefix=":"/>
-                  <text variable="DOI" prefix=". doi:"/>
-                </else>
+                  <choose>
+                    <if variable="volume issue" match="any">
+                      <text variable="page" prefix=":"/>
+                    </if>
+                    <else>
+                      <text variable="page" prefix=" "/>
+                    </else>
+                  </choose>
+                </if>
+                <else-if type="article-journal" variable="container-title" match="all">
+                  <!-- accepted but not yet published: a journal article with no volume, issue or pages -->
+                  <text term="forthcoming" prefix=", "/>
+                </else-if>
               </choose>
+              </group>
+              <choose>
+                <if variable="DOI">
+                  <group delimiter=". ">
+                    <text macro="accessed-date"/>
+                    <text variable="DOI" prefix="doi:"/>
+                  </group>
+                </if>
+              </choose>
+              <!-- reprinted article: Extra "References: <journal. year;volume(issue):pages>" -->
+              <text variable="references" prefix="Cetak ulang dalam "/>
             </group>
           </else>
         </choose>
@@ -554,6 +608,10 @@
         <if variable="DOI" match="none">
           <text macro="access"/>
         </if>
+        <else-if type="bill book graphic legal_case legislation motion_picture report song thesis chapter paper-conference entry-dictionary entry-encyclopedia review review-book" match="any">
+          <!-- books, chapters, proceedings and reports also print their DOI; every other type prints it in the journal branch -->
+          <text variable="DOI" prefix=" doi:" suffix="."/>
+        </else-if>
       </choose>
     </layout>
   </bibliography>
