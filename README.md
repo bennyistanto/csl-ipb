@@ -28,12 +28,10 @@ earlier version of these files, which used the Zotero repository ID, remove it a
 
 How a citation style fits in:
 
-```{mermaid}
-flowchart LR
-    meta["Reference metadata<br/>(BibTeX, RIS, CSL JSON)"] --> proc(["Citation processor<br/>(Zotero, Mendeley, Pandoc)"])
-    style["Citation style<br/>(ipb.csl or ipb_en.csl)"] --> proc
-    proc --> out["Citations and<br/>reference list"]
-```
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="img/csl-flow-dark.svg">
+  <img src="img/csl-flow-light.svg" width="760" alt="Reference metadata (BibTeX, RIS, CSL JSON) and a citation style (ipb.csl or ipb_en.csl) go into a citation processor (Zotero, Mendeley, Pandoc), which produces the citations and reference list.">
+</picture>
 
 ## Installation
 
