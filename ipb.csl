@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" demote-non-dropping-particle="sort-only" initialize-with-hyphen="false" default-locale="id-ID">
   <info>
-    <title>Institut Pertanian Bogor: Pedoman Penulisan Karya Ilmiah Edisi ke-4 (Indonesian)</title>
+    <title>Institut Pertanian Bogor: Pedoman Penyajian Tugas Akhir (Bahasa Indonesia)</title>
+    <title-short>IPB PPTA</title-short>
     <id>https://github.com/bennyistanto/csl-ipb/ipb.csl</id>
     <link href="https://raw.githubusercontent.com/bennyistanto/csl-ipb/master/ipb.csl" rel="self"/>
     <link href="http://www.zotero.org/styles/apa" rel="template"/>
-    <link href="http://ppki.staff.ipb.ac.id/unduhan/" rel="documentation"/>
-    <link href="https://drive.google.com/file/d/0B0YEuQotqd_BQVpkR0lHNHctSHM/view" rel="documentation"/>
+    <link href="https://dtptp.ipb.ac.id/ppta-ipb/" rel="documentation"/>
     <author>
       <name>Auriza Rahmad Akbar</name>
       <email>auriza@apps.ipb.ac.id</email>
@@ -17,7 +17,7 @@
     </author>
     <category citation-format="author-date"/>
     <category field="science"/>
-    <updated>2026-10-20T16:00:00+07:00</updated>
+    <updated>2026-10-21T16:00:00+07:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="id">
@@ -364,8 +364,13 @@
     </group>
   </macro>
   <macro name="publisher">
+    <!-- PPTA: no place of publication, except for theses and reports ("Bogor: Institut Pertanian Bogor") -->
     <group delimiter=": ">
-      <text variable="publisher-place"/>
+      <choose>
+        <if type="thesis report" match="any">
+          <text variable="publisher-place"/>
+        </if>
+      </choose>
       <text variable="publisher" suffix="."/>
     </group>
   </macro>
@@ -425,21 +430,22 @@
   <macro name="volume">
     <choose>
       <if is-numeric="volume">
-        <group>
-          <text term="volume"/>
+        <group delimiter=" ">
+          <text value="Vol"/>
           <number variable="volume"/>
         </group>
       </if>
       <else>
-        <text variable="volume" prefix="Volume "/>
+        <text variable="volume" prefix="Vol "/>
       </else>
     </choose>
   </macro>
   <macro name="edition">
     <choose>
       <if is-numeric="edition">
-        <group>
-          <text term="edition"/>
+        <group delimiter=" ">
+          <!-- PPTA: "Ed 2" -->
+          <text value="Ed"/>
           <number variable="edition"/>
         </group>
       </if>
@@ -454,7 +460,8 @@
         <number variable="issue" prefix="(" suffix=")"/>
       </if>
       <else>
-        <text variable="issue" prefix=" "/>
+        <!-- PPTA: 4(3 Supl 1) -->
+        <text variable="issue" prefix="(" suffix=")"/>
       </else>
     </choose>
   </macro>
@@ -490,7 +497,7 @@
       <text variable="locator" prefix=":"/>
     </layout>
   </citation>
-  <bibliography hanging-indent="true" et-al-min="11" et-al-use-first="10" entry-spacing="0">
+  <bibliography hanging-indent="true" et-al-min="6" et-al-use-first="5" entry-spacing="0">
     <sort>
       <key macro="author"/>
       <key macro="year-date"/>
@@ -521,35 +528,53 @@
               <group delimiter=" ">
                 <text term="in" suffix=":" text-case="capitalize-first"/>
                 <text macro="editor" suffix="."/>
-                <text variable="container-title" font-style="italic" suffix="."/>
-                <!--<choose>
-                  <if variable="accessed">
-                    <text term="internet" prefix="[" suffix="]"/>
-                  </if
-                </choose>-->
-              </group>
-              <text macro="volume" suffix="."/>
-              <text macro="edition"/>
-              <group suffix="." delimiter=". ">
                 <choose>
                   <if type="paper-conference">
-                    <group delimiter="; ">
-                      <text variable="event" font-style="italic"/>
+                    <!-- PPTA: Title of publication or meeting; date; city, country. -->
+                    <group delimiter="; " suffix=".">
+                      <group delimiter=". ">
+                        <text variable="container-title" font-style="italic"/>
+                        <text variable="event" font-style="italic"/>
+                      </group>
                       <date variable="event-date" delimiter=" ">
                         <date-part name="year" suffix=" "/>
-                        <date-part name="month" form="short" suffix=" "/>
+                        <date-part name="month" form="short" strip-periods="true" suffix=" "/>
                         <date-part name="day"/>
                       </date>
                       <text variable="event-place"/>
                     </group>
                   </if>
+                  <else>
+                    <text variable="container-title" font-style="italic" suffix="."/>
+                  </else>
                 </choose>
+              </group>
+              <text macro="volume" suffix="."/>
+              <text macro="edition"/>
+              <group suffix="." delimiter=". ">
                 <text macro="publisher"/>
-                <text macro="pages"/>
+                <!-- PPTA: pages; [accessed date]. URL. -->
+                <group delimiter="; ">
+                  <text macro="pages"/>
+                  <choose>
+                    <if variable="URL">
+                      <choose>
+                        <if variable="DOI" match="none">
+                          <text macro="accessed-date"/>
+                        </if>
+                      </choose>
+                    </if>
+                  </choose>
+                </group>
                 <!-- abstract number: Extra "Number: <n>" -->
                 <choose>
                   <if type="paper-conference">
-                    <text variable="number" prefix="No abstr "/>
+                    <text variable="number" prefix="No abstrak "/>
+                  </if>
+                </choose>
+                <choose>
+                  <if variable="DOI" match="none">
+                    <text variable="URL"/>
                   </if>
                 </choose>
               </group>
@@ -592,10 +617,8 @@
               </group>
               <choose>
                 <if variable="DOI">
-                  <group delimiter=". ">
-                    <text macro="accessed-date"/>
-                    <text variable="DOI" prefix="doi:"/>
-                  </group>
+                  <!-- PPTA: no access date for journal articles -->
+                  <text variable="DOI" prefix="doi:"/>
                 </if>
               </choose>
               <!-- reprinted article: Extra "References: <journal. year;volume(issue):pages>" -->
@@ -606,7 +629,11 @@
       </group>
       <choose>
         <if variable="DOI" match="none">
-          <text macro="access"/>
+          <choose>
+            <if type="chapter paper-conference entry-dictionary entry-encyclopedia" match="none">
+              <text macro="access"/>
+            </if>
+          </choose>
         </if>
         <else-if type="bill book graphic legal_case legislation motion_picture report song thesis chapter paper-conference entry-dictionary entry-encyclopedia review review-book" match="any">
           <!-- books, chapters, proceedings and reports also print their DOI; every other type prints it in the journal branch -->

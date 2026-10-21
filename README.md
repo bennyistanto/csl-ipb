@@ -1,230 +1,82 @@
-# CSL styles for IPB PPKI (4th edition)
+# IPB PPTA Citation Styles
+
+**Citation styles for IPB University theses, in Bahasa Indonesia and English.**
+
+[Citation Style Language](https://citationstyles.org/) (CSL) styles that format citations and reference lists the way
+IPB's thesis guide, *Pedoman Penyajian Tugas Akhir* (PPTA, 2026), asks for. They work in Zotero, Mendeley, Pandoc,
+R Markdown and Quarto.
+
+![CSL 1.0.2](https://img.shields.io/badge/CSL-1.0.2-blue)
+![Guide PPTA 2026](https://img.shields.io/badge/guide-PPTA%202026-2e7d32)
+![License CC BY-SA 3.0](https://img.shields.io/badge/license-CC%20BY--SA%203.0-lightgrey)
 
 > [!NOTE]
-> This repository is a fork of [auriza/csl-ipb-ppki](https://github.com/auriza/csl-ipb-ppki), the original IPB PPKI
-> style by Auriza Rahmad Akbar and M. Rachmatarramadhan. The fork exists mainly for the **English version**,
-> `ipb_en.csl`. The Bahasa Indonesia style, `ipb.csl`, is kept here too, with the same fixes as the English one.
-> Those fixes are not in the original repository, so download both styles from this one.
+> This is a fork of [auriza/csl-ipb-ppki](https://github.com/auriza/csl-ipb-ppki), the original IPB style by Auriza
+> Rahmad Akbar and M. Rachmatarramadhan for the earlier guide, PPKI 4. This fork adds the **English style**,
+> `ipb_en.csl`, and updates both styles to PPTA. Download both from here.
 
-[Citation Style Language](https://citationstyles.org/) (CSL) styles for the IPB University thesis writing guide,
-*Pedoman Penulisan Karya Ilmiah* (PPKI), 4th edition.
+## Download
 
-The repository has two styles:
+| Style | For | File |
+|:--|:--|:--|
+| **Bahasa Indonesia** | Theses and papers written in Indonesian | [`ipb.csl`](https://raw.githubusercontent.com/bennyistanto/csl-ipb/master/ipb.csl) |
+| **English** | Theses and papers written in English, such as international programs and journal manuscripts | [`ipb_en.csl`](https://raw.githubusercontent.com/bennyistanto/csl-ipb/master/ipb_en.csl) |
 
-| File | Language | Use it for | Download |
-|:-----|:---------|:-----------|:---------|
-| [`ipb.csl`](ipb.csl) | Bahasa Indonesia | Theses and papers written in Indonesian. The original style, with this fork's fixes. | [ipb.csl](https://raw.githubusercontent.com/bennyistanto/csl-ipb/master/ipb.csl) |
-| [`ipb_en.csl`](ipb_en.csl) | English | Theses and papers written in English, such as international programs and journal manuscripts. | [ipb_en.csl](https://raw.githubusercontent.com/bennyistanto/csl-ipb/master/ipb_en.csl) |
+Right-click a file and choose "Save link as". The two styles can be installed side by side.
 
-Both styles follow the same PPKI rules. The English style translates the labels ("dan" becomes "and", "Di dalam"
-becomes "In", "hlm" becomes "pp", "diakses" becomes "accessed on", and so on) and uses English month names, following
-the English edition of the guide. The original list of translated terms is in
-[this gist](https://gist.github.com/bennyistanto/ef6b1a2bb1ed303a7832f789ac7e7a70).
+## Quick start in Zotero
 
-Each style has its own ID, based on this repository (`https://github.com/bennyistanto/csl-ipb/ipb.csl` and
-`.../ipb_en.csl`). You can install both side by side and switch between them per document, and they do not replace
-the *Institut Pertanian Bogor* style from the Zotero Style Repository if you already have it. If you installed an
-earlier version of these files, which used the Zotero repository ID, remove it after installing the new one.
+1. Download the style you need.
+2. In Zotero 7, open **Edit > Settings > Cite**, click **+** under **Styles**, and select the file.
+3. In Word, open **Document Preferences** in the Zotero toolbar and choose
+   *Institut Pertanian Bogor: Pedoman Penyajian Tugas Akhir*.
 
-How a citation style fits in:
+For Mendeley, Pandoc, R Markdown and Quarto, see [Installation](docs/installation.md).
+
+## What it looks like
+
+```text
+(Aulia et al. 2024)     (Rusmana dan Nedwell 2024)     (Rusmana and Nedwell 2024)
+
+Aulia G, Rachman F, Untari F, Rasyid A, Hapsari Y. 2024. Utilizing the co-culture method to improve the
+    investigation of secondary metabolites of marine bacteria. J Appl Pharm Sci. 14(1):286–290.
+    doi:10.7324/JAPS.2024.136305.
+
+Buchori D, Puspitasari S, Sahari B, Rizali A. 2017. Insect pollinators in decline: conservation challenges in the
+    tropics. Di dalam: Aguirre AA, Sukumar R, editor. Tropical Conservation: Perspectives on Local and Global
+    Priorities. Oxford University Press. hlm 290–300.
+
+    ... In: Aguirre AA, Sukumar R, editor. ... Oxford University Press. p 290–300.     (English style)
+```
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="img/csl-flow-dark.svg">
   <img src="img/csl-flow-light.svg" width="760" alt="Reference metadata (BibTeX, RIS, CSL JSON) and a citation style (ipb.csl or ipb_en.csl) go into a citation processor (Zotero, Mendeley, Pandoc), which produces the citations and reference list.">
 </picture>
 
-## Installation
+## Documentation
 
-### Zotero (version 7)
+| Page | What is in it |
+|:--|:--|
+| [Installation](docs/installation.md) | Zotero, Mendeley Cite, Mendeley Desktop, Pandoc, R Markdown and Quarto |
+| [Zotero guide](docs/zotero-guide.md) | Which field to fill for each source type, and what the style cannot fix for you |
+| [Style notes](docs/style-notes.md) | How the two styles differ, what changed from PPKI 4, PPTA's own inconsistencies, and known issues |
+| [Testing and examples](docs/testing.md) | The PPTA test library, two real papers, and how to check a change |
 
-1. Download the `.csl` file you need from the table above. In the browser, use "Save link as" so the file keeps
-   its `.csl` extension.
-2. In Zotero, open **Edit > Settings** (on macOS, **Zotero > Settings**) and go to the **Cite** pane.
-3. Under **Styles**, click **+** and select the downloaded file.
-4. In Word or LibreOffice, open the Zotero toolbar, click **Document Preferences**, and choose
-   *Institut Pertanian Bogor: Pedoman Penulisan Karya Ilmiah Edisi ke-4*, followed by *(Indonesian)* or
-   *(English)*.
-
-See also the Zotero documentation: [Citation styles](https://www.zotero.org/support/styles).
-
-### Mendeley Reference Manager and Mendeley Cite
-
-In the Word add-in Mendeley Cite, open the **Citation Settings** tab, choose **Add a custom style**, and paste the
-download link from the table above. Mendeley's help page:
-[changing the citation style in Mendeley Cite](https://service.elsevier.com/app/answers/detail/a_id/28708/).
-
-### Mendeley Desktop (legacy)
-
-1. Go to **View > Citation Style > More Styles...**.
-2. Open the **Get More Styles** tab, paste the download link into **Download Style**, and click **Download**.
-
-### Pandoc, R Markdown and Quarto
-
-Put the `.csl` file next to your document and reference it in the YAML header:
-
-```yaml
-bibliography: references.bib
-csl: ipb_en.csl   # or ipb.csl for Bahasa Indonesia
-```
-
-To render from the command line:
-
-```bash
-pandoc paper.md --citeproc -o paper.docx
-```
-
-## Preparing your Zotero library
-
-The style can only format what is in the item metadata. Fill in the Zotero fields as follows so the output matches
-PPKI. Zotero reads `Extra` one line at a time, so put each `Key: value` entry on its own line.
-
-| Item | What to enter in Zotero |
-|:-----|:------------------------|
-| **General** | |
-| Book title | *Title Case* |
-| Journal or proceedings name | *Title Case* |
-| Article title | *Sentence case* |
-| Italic words in a title | Wrap them in `<i>...</i>`, for example `<i>Oryza sativa</i>` |
-| **Journal article** | |
-| Abbreviated journal name | `Journal Abbr` field |
-| No author | In `Short Title`, enter the first word of the title |
-| Organization as author | Enter the abbreviation as the author (single-field mode), and add a line to `Extra`: `Authority: Scandinavian Society for Clinical Chemistry and Clinical Physiology`. The reference list shows `[SSCCCP] Scandinavian Society ...`, and the citation shows `(SSCCCP 1976)` |
-| Article type: editorial, review, ... | `Extra` field, as a plain line with no `Key:`, for example `editorial`. It prints in square brackets after the title |
-| Supplement or special issue | `Issue` field |
-| English translation of the title | `Extra` field, as a plain line with no `Key:`. It prints in square brackets after the title |
-| Reprinted article | Add a line to `Extra`: `References: J Nutr. 1990;120(1):20-35`. The entry ends with `Cetak ulang dalam ...` (`Reprinted in ...` in English) |
-| Accepted, not yet published | Leave `Volume`, `Issue` and `Pages` empty. The entry ends with `siap terbit` (`forthcoming` in English) |
-| Article from the internet | `Accessed` field. The access date prints before the DOI, as in the PPKI examples. Clear `Accessed` if you cite the printed version |
-| **Book** | |
-| US state code | `Place` field, for example `New York (NY)` |
-| Book with editor | Add the person as `Editor` |
-| Translated book | Add the person as `Translator` |
-| Organization as author | Same as for journal articles: abbreviation as the author, full name in `Extra` as `Authority: Institut Pertanian Bogor` |
-| Multi-volume book, same title for each volume | `Volume` field |
-| Multi-volume book, different title for each volume | `Volume` field, as `number: volume title` |
-| Chapter in a book | Use the item type `Book Section` |
-| **Conference proceedings** | |
-| Conference date | In `Extra`, add a line `Event Date: YYYY-MM-DD/YYYY-MM-DD` |
-| Conference location | Leave `Place` empty. In `Extra`, add `Event Place:` and `Publisher Place:` lines |
-| Paper from the internet | `URL` and `Accessed` fields |
-| Abstract number | Add a line to `Extra`: `Number: 12`. Prints as `No abstr 12` (`Abstract no 12` in English) |
-| **Thesis** | |
-| Type: undergraduate thesis (skripsi), master's thesis (tesis), dissertation (disertasi) | `Type` field |
-
-**Indonesian titles in the English style.** CSL applies title case only to items it treats as English. The English
-style is set to English, so it capitalizes every word of Indonesian book titles (for example, "Politik Kelautan
-*Dan* Perikanan"). To keep a title as entered, set the item's `Language` field to `id`.
-
-**Labels you type yourself are not translated.** Article types in `Extra` (such as `[catatan penelitian]`) and
-thesis types in `Type` (such as `disertasi`) print exactly as entered. For an English document, enter them in English:
-`research note`, `undergraduate thesis`, `master's thesis`, `dissertation`.
-
-## How the two styles differ
-
-The examples below come from rendering the test pages in [`test/`](test/) with each style (see [Testing](#testing)).
-The English wording follows the English edition of the guide, *Guidelines for Writing Scientific Paper*.
-
-| | `ipb.csl` (Bahasa Indonesia) | `ipb_en.csl` (English) |
-|:--|:--|:--|
-| In-text citation | (Sutiawan dan Hernowo 2017) | (Sutiawan and Hernowo 2017) |
-| Chapter in a book | Di dalam: ... editor. ... hlm 290–300. | In: ... editors. ... pp 290–300. |
-| Edition | Ed ke-4. | 4th ed. |
-| Volume | Volume ke-1. | Volume 1. |
-| Translator | ..., penerjemah. | ..., translator. |
-| Conference date | 2010 Okt 4–7 | 2010 Oct 4–7 |
-| Article not yet published | Ocean Coast Manag., siap terbit. | Ocean Coast Manag., forthcoming. |
-| Access date | [diakses 2017 Nov 29]. https://... | [accessed on 2017 Nov 29]. https://... |
-| Reprinted article | Cetak ulang dalam J Nutr. ... | Reprinted in J Nutr. ... |
-| Abstract number | No abstr 12 | Abstract no 12 |
-| Book titles | as entered | Title Case (see the note above on Indonesian titles) |
-
-Apart from these and the [Known issues](#known-issues) below, the two styles behave the same way:
-
-- citations ordered by year, with year suffixes written as `2023a`, `2023b` and the reference list ordered by title
-  within the same author and year
-- organization authors as `[ABBR] Full Name`
-- initials without hyphens (`Hsu KL`, not `Hsu K-L`) and a comma before *et al.*
-- article type and translated title in square brackets
-- journal abbreviations without periods
-- the access date before the DOI, with no URL, for journal articles
-- the DOI printed for books, chapters, proceedings and reports as well
-- a hanging indent in the reference list
-
-## Known issues
-
-These come from comparing the two styles on the test library, and `ipb_en.csl` with the reference list of an
-accepted IPB thesis.
-
-**Both styles:**
-
-- **Total page count of a whole book or report.** PPKI writes it as `525 p`. The styles print a report's `Pages`
-  field as a page range (`pp 143` or `hlm 143`), and never print a book's `# of Pages`.
-- **Datasets, software and preprints** print without a publisher or repository, for example
-  `Huffman GJ. 2023. GPM IMERG Final Precipitation L3 V07. [accessed on ...]. doi:...`.
-- **Proceedings from the internet.** PPKI puts a semicolon before the access date (`pp 37-45; [accessed on ...]`).
-  The styles use a period.
-- **Review article with no editor.** The `[review]` (`[ulasan]`) label is not printed.
-- **Periods inside a container name are removed** along with abbreviation periods, so `Tirto.id` prints as `Tirtoid`.
-- **A URL at the end of an entry** is followed by a period in `ipb.csl` but not in `ipb_en.csl`. The guide's own
-  examples do both.
-
-**`ipb_en.csl` only:**
-
-- **Editor and translator order.** `ipb.csl` gives `Achmadi SS, penerjemah; Safitri A, editor.`; `ipb_en.csl`
-  gives `Safitri A, editor; Achmadi SS, translator.`
-- **Volume in a chapter** prints as `Vol. 3: Strengthening the Family.` instead of `Volume 3: ...`.
-- **Issue numbers.** A text issue keeps parentheses, `1(Sisipan 3)` instead of `1 Sisipan 3`, and an issue range
-  keeps its hyphen, `140(3-4)` instead of `140(3–4)`.
-- **Article with no author.** The short title in the citation has no ellipsis: `(Tren 2006)` instead of
-  `(Tren… 2006)`.
-
-Issues and pull requests are welcome.
-
-## Examples
-
-Two real papers show the styles on running text, with in-text citations and a full reference list:
-
-| Folder | Style | Content | Output |
-|:--|:--|:--|:--|
-| [`tesis/`](tesis/) | `ipb.csl` | Auriza Rahmad Akbar's undergraduate paper on parallel pairwise alignment (2014), in Bahasa Indonesia, from the original repository | [HTML](tesis/paper.html) |
-| [`tesis_en/`](tesis_en/) | `ipb_en.csl` | An excerpt of Benny Istanto's MSc thesis on bias correction of satellite precipitation (2026): the opening of the Summary and the Background section, with 28 references | [HTML](tesis_en/paper.html) |
-
-Each folder has the Markdown source (`paper.md`) and its references. To render one, run this from its folder:
-
-```bash
-pandoc paper.md --citeproc --mathjax -s -o paper.html
-```
-
-`tesis_en/references.json` is in CSL JSON, the format the styles read directly. It was converted from the thesis
-BibTeX file and cleaned: access dates written as ISO dates, journal-article titles in sentence case, and a few
-author names corrected.
-
-## Testing
-
-The test library has one example for each PPKI case:
-
-- Bibliography: [YAML](test/ppki4.yaml), [BibTeX](test/ppki4.bib), [RIS](test/ppki4.ris), [EndNote XML](test/ppki4.xml)
-- Test page in Bahasa Indonesia, using `ipb.csl`: [Markdown](test/ppki4.md), output [HTML](test/ppki4.html)
-- Test page in English, using `ipb_en.csl`: [Markdown](test/ppki4_en.md), output [HTML](test/ppki4_en.html)
-
-The library was exported from Zotero as "Better CSL YAML". Both test pages use the same library, and each page names
-its style in its YAML header. To render them, run this from the `test/` folder:
-
-```bash
-pandoc ppki4_en.md --citeproc -s -o ppki4_en.html
-```
-
-Use `ppki4.md` and `ppki4.html` for the Bahasa Indonesia page.
-
-Before submitting a change to a style, check it with the [CSL validator](https://validator.citationstyles.org/).
+**The guides.** PPTA (2026, current): [Bahasa Indonesia](https://dtptp.ipb.ac.id/ppta-ipb/) |
+[English](https://dtptp.ipb.ac.id/ppta-english/) | [Supplements](https://ipb.link/suplemen-ppta).
+PPKI 4 (2019, previous): [Bahasa Indonesia](https://simak.ipb.ac.id/Foto/Panduan/Panduan_31.pdf) |
+[English](https://kmm.ipb.ac.id/ppki-edisi4-eng/). Styles for PPKI 4 are listed under
+[Guide versions](docs/style-notes.md#guide-versions).
 
 ## Credits and license
 
-- `ipb.csl`: Auriza Rahmad Akbar and M. Rachmatarramadhan, with fixes in this fork by Benny Istanto.
+- `ipb.csl`: Auriza Rahmad Akbar and M. Rachmatarramadhan, revised for PPTA by Benny Istanto.
 - `ipb_en.csl`: English translation by Benny Istanto, based on the
   [Institut Pertanian Bogor style](https://www.zotero.org/styles/institut-pertanian-bogor) in the Zotero Style
-  Repository.
-- PPKI guide, English version: [IPB University](https://kmm.ipb.ac.id/ppki-edisi4-eng/).
+  Repository. The original list of translated terms is in
+  [this gist](https://gist.github.com/bennyistanto/ef6b1a2bb1ed303a7832f789ac7e7a70).
 
 Both styles are licensed under
-[Creative Commons Attribution-ShareAlike 3.0](https://creativecommons.org/licenses/by-sa/3.0/).
+[Creative Commons Attribution-ShareAlike 3.0](https://creativecommons.org/licenses/by-sa/3.0/). Issues and pull
+requests are welcome.

@@ -1,0 +1,987 @@
+[
+  {
+    "id": "arifin2023",
+    "type": "book",
+    "author": [
+      {
+        "family": "Arifin",
+        "given": "H. S."
+      },
+      {
+        "literal": "Kaswanto"
+      }
+    ],
+    "title": "Manajemen Ruang Terbuka Biru untuk Pengendali Banjir",
+    "publisher": "IPB Press",
+    "publisher-place": "Bogor",
+    "issued": {
+      "date-parts": [
+        [
+          2023
+        ]
+      ]
+    },
+    "language": "id"
+  },
+  {
+    "id": "aulia2024",
+    "type": "article-journal",
+    "author": [
+      {
+        "family": "Aulia",
+        "given": "G."
+      },
+      {
+        "family": "Rachman",
+        "given": "F."
+      },
+      {
+        "family": "Untari",
+        "given": "F."
+      },
+      {
+        "family": "Rasyid",
+        "given": "A."
+      },
+      {
+        "family": "Hapsari",
+        "given": "Y."
+      }
+    ],
+    "title": "Utilizing the co-culture method to improve the investigation of secondary metabolites of marine bacteria",
+    "container-title": "J Appl Pharm Sci",
+    "volume": "14",
+    "issue": "1",
+    "page": "286-290",
+    "DOI": "10.7324/JAPS.2024.136305",
+    "issued": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    }
+  },
+  {
+    "id": "bellefontaine2016",
+    "type": "chapter",
+    "author": [
+      {
+        "family": "Bellefontaine",
+        "given": "N."
+      },
+      {
+        "family": "Johansson",
+        "given": "T."
+      }
+    ],
+    "editor": [
+      {
+        "family": "Carpenter",
+        "given": "A."
+      }
+    ],
+    "title": "The role of the International Maritime Organization in the prevention of illegal oil pollution from ships: North Sea special status area",
+    "container-title": "The Handbook of Environmental Chemistry",
+    "volume": "41: Oil Pollution in the North Sea",
+    "publisher": "Springer",
+    "publisher-place": "Cham",
+    "page": "49-67",
+    "issued": {
+      "date-parts": [
+        [
+          2016
+        ]
+      ]
+    }
+  },
+  {
+    "id": "brett2025",
+    "type": "article-journal",
+    "author": [
+      {
+        "family": "Brett",
+        "given": "D. F."
+      }
+    ],
+    "title": "Titles in archaeology research articles: A corpus-based comparison with other disciplines",
+    "container-title": "J Engl Acad Purp",
+    "volume": "77",
+    "page": "1-11",
+    "DOI": "10.1016/j.jeap.2025.101545",
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    }
+  },
+  {
+    "id": "buchori2017",
+    "type": "chapter",
+    "author": [
+      {
+        "family": "Buchori",
+        "given": "D."
+      },
+      {
+        "family": "Puspitasari",
+        "given": "S."
+      },
+      {
+        "family": "Sahari",
+        "given": "B."
+      },
+      {
+        "family": "Rizali",
+        "given": "A."
+      }
+    ],
+    "editor": [
+      {
+        "family": "Aguirre",
+        "given": "A. A."
+      },
+      {
+        "family": "Sukumar",
+        "given": "R."
+      }
+    ],
+    "title": "Insect pollinators in decline: conservation challenges in the tropics",
+    "container-title": "Tropical Conservation: Perspectives on Local and Global Priorities",
+    "publisher": "Oxford University Press",
+    "publisher-place": "New York (NY)",
+    "page": "290-300",
+    "issued": {
+      "date-parts": [
+        [
+          2017
+        ]
+      ]
+    }
+  },
+  {
+    "id": "budde2023",
+    "type": "book",
+    "author": [
+      {
+        "family": "Budde",
+        "given": "J. A."
+      },
+      {
+        "family": "McCluskey",
+        "given": "D. M."
+      }
+    ],
+    "title": "Veterinary Drug Handbook",
+    "edition": "10",
+    "publisher": "Wiley-Blackwell",
+    "publisher-place": "Hoboken (NJ)",
+    "issued": {
+      "date-parts": [
+        [
+          2023
+        ]
+      ]
+    }
+  },
+  {
+    "id": "cpps2019",
+    "type": "article-journal",
+    "author": [
+      {
+        "literal": "CPPS"
+      }
+    ],
+    "title": "A report on setting performance presentation standards",
+    "container-title": "Financ Anal J",
+    "volume": "43",
+    "issue": "5",
+    "page": "8-11",
+    "issued": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    }
+  },
+  {
+    "id": "dewi2025",
+    "type": "thesis",
+    "genre": "disertasi",
+    "author": [
+      {
+        "family": "Dewi",
+        "given": "T. I. T."
+      }
+    ],
+    "title": "Integritas jaringan pada pemasangan mesh dengan penambahan sekretom sel punca mesenkimal pada hewan model hipoestrogenik",
+    "publisher": "Institut Pertanian Bogor",
+    "publisher-place": "Bogor",
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "language": "id"
+  },
+  {
+    "id": "efendi2024",
+    "type": "thesis",
+    "genre": "tesis",
+    "author": [
+      {
+        "family": "Efendi",
+        "given": "F. S."
+      }
+    ],
+    "title": "Characterization of antibacterial compounds from marine sponge-associated Streptomyces spp. against some Gram-negative pathogenic bacteria",
+    "publisher": "Institut Pertanian Bogor",
+    "publisher-place": "Bogor",
+    "issued": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    }
+  },
+  {
+    "id": "fadillah2024",
+    "type": "thesis",
+    "genre": "skripsi",
+    "author": [
+      {
+        "family": "Fadillah",
+        "given": "R. A."
+      }
+    ],
+    "title": "Penapisan aktinobakteri yang mempunyai aktivitas antibakteri melalui pendekatan ko-kultur",
+    "publisher": "Institut Pertanian Bogor",
+    "publisher-place": "Bogor",
+    "issued": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "language": "id"
+  },
+  {
+    "id": "higuchi2016",
+    "type": "book",
+    "author": [
+      {
+        "family": "Higuchi",
+        "given": "H."
+      }
+    ],
+    "translator": [
+      {
+        "literal": "Syartinilia"
+      }
+    ],
+    "title": "Rekam Jejak Perjalanan Migrasi Burung Menggunakan Teknologi Satellite-Tracking",
+    "publisher": "IPB Press",
+    "publisher-place": "Bogor",
+    "issued": {
+      "date-parts": [
+        [
+          2016
+        ]
+      ]
+    },
+    "language": "id"
+  },
+  {
+    "id": "hunter2016",
+    "type": "article-journal",
+    "author": [
+      {
+        "family": "Hunter",
+        "given": "J."
+      },
+      {
+        "family": "Duff",
+        "given": "G."
+      }
+    ],
+    "title": "GM crops--lessons from medicine",
+    "note": "editorial",
+    "container-title": "Science",
+    "volume": "353",
+    "issue": "6305",
+    "page": "1187",
+    "DOI": "10.1126/science.aaj1764",
+    "issued": {
+      "date-parts": [
+        [
+          2016
+        ]
+      ]
+    }
+  },
+  {
+    "id": "ipb2026",
+    "type": "book",
+    "author": [
+      {
+        "literal": "IPB"
+      }
+    ],
+    "title": "Pedoman Penyajian Tugas Akhir",
+    "publisher": "IPB Press",
+    "publisher-place": "Bogor",
+    "issued": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "language": "id"
+  },
+  {
+    "id": "ismayana2017",
+    "type": "article-journal",
+    "author": [
+      {
+        "family": "Ismayana",
+        "given": "A."
+      },
+      {
+        "family": "Maddu",
+        "given": "A."
+      },
+      {
+        "family": "Saillah",
+        "given": "I."
+      },
+      {
+        "family": "Mafquh",
+        "given": "E."
+      },
+      {
+        "family": "Indrasti",
+        "given": "N. S."
+      }
+    ],
+    "title": "Sintesis nanosilika dari abu ketel industri gula dengan metode ultrasonikasi dan penambahan surfaktan",
+    "note": "Synthesis of nanosilica from boiler ash of sugar cane industry with ultrasonication method and addition of surfactant",
+    "container-title": "J Teknol Indust Pert",
+    "volume": "27",
+    "issue": "2",
+    "page": "228-234",
+    "issued": {
+      "date-parts": [
+        [
+          2017
+        ]
+      ]
+    },
+    "language": "id"
+  },
+  {
+    "id": "kingdon2013",
+    "type": "book",
+    "editor": [
+      {
+        "family": "Kingdon",
+        "given": "J."
+      },
+      {
+        "family": "Happold",
+        "given": "D."
+      },
+      {
+        "family": "Butynski",
+        "given": "T."
+      },
+      {
+        "family": "Hoffmann",
+        "given": "M."
+      },
+      {
+        "family": "Happold",
+        "given": "M."
+      },
+      {
+        "family": "Kalina",
+        "given": "J."
+      }
+    ],
+    "title": "Mammals of Africa",
+    "volume": "6: Pigs, Hippopotamuses, Chevrotain, Giraffes, Deer and Bovids",
+    "publisher": "Bloomsbury Publishing",
+    "publisher-place": "London",
+    "issued": {
+      "date-parts": [
+        [
+          2013
+        ]
+      ]
+    }
+  },
+  {
+    "id": "lee2026",
+    "type": "article-journal",
+    "author": [
+      {
+        "family": "Lee",
+        "given": "M."
+      },
+      {
+        "family": "Cai",
+        "given": "Q."
+      },
+      {
+        "family": "Wang",
+        "given": "J."
+      }
+    ],
+    "title": "Diagnosis and management of sarcoidosis-like reaction in adjuvant immunotherapy: A comprehensive review and clinical implications",
+    "note": "ulasan",
+    "container-title": "Biomedicines",
+    "volume": "14",
+    "issue": "5",
+    "page": "1082",
+    "issued": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    }
+  },
+  {
+    "id": "mirsam2015",
+    "type": "paper-conference",
+    "author": [
+      {
+        "family": "Mirsam",
+        "given": "H."
+      },
+      {
+        "family": "Rosya",
+        "given": "A."
+      },
+      {
+        "family": "Rahim",
+        "given": "Y. F."
+      },
+      {
+        "family": "Rusae",
+        "given": "A."
+      },
+      {
+        "family": "Munif",
+        "given": "A."
+      }
+    ],
+    "editor": [
+      {
+        "family": "Mubin",
+        "given": "N."
+      },
+      {
+        "family": "Pradana",
+        "given": "M. G."
+      },
+      {
+        "literal": "Suryadi"
+      },
+      {
+        "family": "Nurjayadi",
+        "given": "M. Y."
+      },
+      {
+        "family": "Sukaryana",
+        "given": "D."
+      }
+    ],
+    "title": "Eksplorasi cendawan antagonis dari tanaman kirinyuh",
+    "container-title": "Prosiding Seminar Nasional Perlindungan Tanaman II: Strategi Perlindungan Tanaman dalam Memperkuat Sistem Pertanian Nasional",
+    "event-date": {
+      "date-parts": [
+        [
+          2014,
+          11,
+          13
+        ]
+      ]
+    },
+    "event-place": "Bogor, Indonesia",
+    "publisher": "Pusat Kajian Pengendalian Hama Terpadu",
+    "publisher-place": "Bogor",
+    "page": "167-175",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          12
+        ]
+      ]
+    },
+    "URL": "https://repository.ipb.ac.id/bitstream/123456789/75901/1/PROS2015_ABM4.pdf",
+    "issued": {
+      "date-parts": [
+        [
+          2015
+        ]
+      ]
+    },
+    "language": "id"
+  },
+  {
+    "id": "rahayu2010",
+    "type": "paper-conference",
+    "author": [
+      {
+        "family": "Rahayu",
+        "given": "G."
+      }
+    ],
+    "title": "Microbial aspects of agarwood production in Indonesia",
+    "container-title": "Book of Abstracts. Harnessing the Power of Microbes for Better Food, Agro-Industry, Health, and Environment",
+    "event": "International Seminar of Indonesian Society for Microbiology",
+    "event-date": {
+      "date-parts": [
+        [
+          2010,
+          10,
+          4
+        ],
+        [
+          2010,
+          10,
+          7
+        ]
+      ]
+    },
+    "event-place": "Bogor, Indonesia",
+    "publisher": "Permi Cabang Bogor",
+    "publisher-place": "Bogor",
+    "page": "9",
+    "issued": {
+      "date-parts": [
+        [
+          2010
+        ]
+      ]
+    }
+  },
+  {
+    "id": "resmeiliana2025",
+    "type": "article-journal",
+    "author": [
+      {
+        "family": "Resmeiliana",
+        "given": "I."
+      },
+      {
+        "family": "Achmadi",
+        "given": "S. S."
+      },
+      {
+        "family": "Batubara",
+        "given": "I."
+      },
+      {
+        "family": "Murtini",
+        "given": "S."
+      },
+      {
+        "family": "Gerardin",
+        "given": "C."
+      },
+      {
+        "family": "Gerardin",
+        "given": "P."
+      },
+      {
+        "family": "Dumarcay",
+        "given": "S."
+      },
+      {
+        "family": "Kuspradini",
+        "given": "H."
+      },
+      {
+        "family": "Putri",
+        "given": "N. A."
+      },
+      {
+        "family": "Astari",
+        "given": "N. H."
+      }
+    ],
+    "title": "Phytochemicals and antibacterial activity of leaf and twig of three Fabaceae species",
+    "container-title": "Chem Biodivers",
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    }
+  },
+  {
+    "author": [
+      {
+        "family": "Rifai",
+        "given": "M.A."
+      }
+    ],
+    "container-title": "Floribunda",
+    "id": "rifai_penggodokan_1992",
+    "issue": "Sisipan 3",
+    "issued": {
+      "date-parts": [
+        [
+          1992
+        ]
+      ]
+    },
+    "page": "22-24",
+    "title": "Penggodokan peneliti taksonomi tumbuhan siap pakai",
+    "type": "article-journal",
+    "volume": "1"
+  },
+  {
+    "id": "riyanto2025",
+    "type": "article-journal",
+    "author": [
+      {
+        "family": "Riyanto",
+        "given": "M."
+      },
+      {
+        "family": "Wisudo",
+        "given": "S. H."
+      },
+      {
+        "family": "Rufiati",
+        "given": "I."
+      },
+      {
+        "family": "Fachri",
+        "given": "F. R."
+      },
+      {
+        "family": "Septiani",
+        "given": "W. D."
+      },
+      {
+        "literal": "Inayah"
+      },
+      {
+        "family": "Rukim",
+        "given": "M."
+      },
+      {
+        "family": "Ilyas",
+        "given": "G. N."
+      },
+      {
+        "family": "Rosa",
+        "given": "E."
+      },
+      {
+        "family": "Saputra",
+        "given": "R."
+      }
+    ],
+    "title": "Length-based stock assessment of Scylla serrata (Forskal, 1975) in Indragiri Hilir, Riau Province, Indonesia",
+    "container-title": "Egypt J Aquat Res",
+    "volume": "51",
+    "issue": "2",
+    "page": "217-224",
+    "DOI": "10.1016/j.ejar.2025.02.004",
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    }
+  },
+  {
+    "id": "rusli2012",
+    "type": "book",
+    "author": [
+      {
+        "family": "Rusli",
+        "given": "S."
+      }
+    ],
+    "title": "Pengantar Ilmu Kependudukan",
+    "edition": "2",
+    "publisher": "LP3ES",
+    "publisher-place": "Jakarta",
+    "issued": {
+      "date-parts": [
+        [
+          2012
+        ]
+      ]
+    },
+    "language": "id"
+  },
+  {
+    "id": "rusmana2024",
+    "type": "article-journal",
+    "author": [
+      {
+        "family": "Rusmana",
+        "given": "I."
+      },
+      {
+        "family": "Nedwell",
+        "given": "D. B."
+      }
+    ],
+    "title": "Denitrifier still has the important role in nitrate reduction to N2 although it is not the predominat population in the estuarine bacterial community of nitrate reducing bacteria",
+    "container-title": "HAYATI J Biosci",
+    "volume": "31",
+    "issue": "4",
+    "page": "630-640",
+    "DOI": "10.4308/hjb.31.4.630-640",
+    "issued": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    }
+  },
+  {
+    "DOI": "10.1080/00365517609055236",
+    "ISSN": "0036-5513",
+    "author": [
+      {
+        "literal": "SSCCCP"
+      }
+    ],
+    "authority": "Scandinavian Society for Clinical Chemistry and Clinical Physiology, Committee on Enzymes",
+    "container-title": "Scandinavian Journal of Clinical and Laboratory Investigation",
+    "container-title-short": "Scand. J. Clin. Lab. Invest.",
+    "id": "sscccp_recommended_1976",
+    "issue": "2",
+    "issued": {
+      "date-parts": [
+        [
+          1976,
+          3
+        ]
+      ]
+    },
+    "language": "eng",
+    "page": "119-125",
+    "title": "Recommended method for the determination of γ-glutamyltransferase in blood",
+    "title-short": "Recommended",
+    "type": "article-journal",
+    "volume": "36"
+  },
+  {
+    "id": "syed2024",
+    "type": "article-journal",
+    "author": [
+      {
+        "family": "Syed",
+        "given": "J."
+      }
+    ],
+    "title": "Enhancement of heat transfer using water/graphene nanofluid and the impact of passive techniques--experimental, numerical and ML approaches",
+    "container-title": "Energies",
+    "volume": "18",
+    "issue": "1",
+    "page": "1-26",
+    "DOI": "10.3390/en18010077",
+    "issued": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    }
+  },
+  {
+    "id": "tren2026",
+    "type": "article-journal",
+    "title-short": "Tren",
+    "title": "Tren kemasan praktis & inovatif",
+    "container-title": "Food Rev Indones",
+    "volume": "1",
+    "issue": "1",
+    "page": "19-21",
+    "issued": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "language": "id"
+  },
+  {
+    "id": "wahyudi2022",
+    "type": "book",
+    "author": [
+      {
+        "family": "Wahyudi",
+        "given": "A. T."
+      },
+      {
+        "family": "Astuti",
+        "given": "R. I."
+      },
+      {
+        "family": "Priyanto",
+        "given": "J. A."
+      }
+    ],
+    "editor": [
+      {
+        "family": "Nugraha",
+        "given": "B."
+      }
+    ],
+    "title": "Metode Eksperimen dalam Genetika Bakteri",
+    "publisher": "IPB Press",
+    "publisher-place": "Bogor",
+    "issued": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "language": "id"
+  },
+  {
+    "id": "wibowo2017",
+    "type": "article-journal",
+    "author": [
+      {
+        "family": "Wibowo",
+        "given": "R. H."
+      },
+      {
+        "family": "Mubarik",
+        "given": "N. R."
+      },
+      {
+        "family": "Rusmana",
+        "given": "I."
+      },
+      {
+        "family": "Thenawidjaya",
+        "given": "M."
+      }
+    ],
+    "title": "Penapisan dan identifikasi bakteri kitinolitik penghambat pertumbuhan Ganoderma boninense in vitro",
+    "note": "komunikasi singkat",
+    "container-title": "J Fitopatol Indones",
+    "volume": "13",
+    "issue": "3",
+    "page": "105-111",
+    "DOI": "10.14692/jfi.13.3.105",
+    "issued": {
+      "date-parts": [
+        [
+          2017
+        ]
+      ]
+    },
+    "language": "id"
+  },
+  {
+    "id": "young1987",
+    "type": "article-journal",
+    "author": [
+      {
+        "family": "Young",
+        "given": "D. S."
+      }
+    ],
+    "title": "Implementation of SI units for clinical laboratory data: style specifications and conversion tables",
+    "container-title": "Ann Intern Med",
+    "volume": "106",
+    "issue": "1",
+    "page": "114-129",
+    "references": "J Nutr. 1990;120(1):20-35",
+    "issued": {
+      "date-parts": [
+        [
+          1987
+        ]
+      ]
+    }
+  },
+  {
+    "id": "yunindanova2015",
+    "type": "paper-conference",
+    "author": [
+      {
+        "family": "Yunindanova",
+        "given": "M. B."
+      },
+      {
+        "family": "Pujiasmanto",
+        "given": "B."
+      },
+      {
+        "family": "Setyaningrum",
+        "given": "R."
+      }
+    ],
+    "editor": [
+      {
+        "family": "Maharijaya",
+        "given": "A."
+      },
+      {
+        "family": "Efendi",
+        "given": "D."
+      },
+      {
+        "family": "Slamet",
+        "given": "S."
+      }
+    ],
+    "title": "Kajian agroekologi dan upaya domestikasi sidaguri (Sida rhombifolia) di Kabupaten Wonogiri",
+    "container-title": "Prosiding Seminar Nasional Perhimpunan Hortikultura Indonesia",
+    "event-date": {
+      "date-parts": [
+        [
+          2015,
+          10,
+          19
+        ],
+        [
+          2015,
+          10,
+          20
+        ]
+      ]
+    },
+    "event-place": "Bogor, Indonesia",
+    "publisher": "Pusat Kajian Hortikultura Tropika",
+    "publisher-place": "Bogor",
+    "page": "37-42",
+    "issued": {
+      "date-parts": [
+        [
+          2015
+        ]
+      ]
+    },
+    "language": "id"
+  }
+]

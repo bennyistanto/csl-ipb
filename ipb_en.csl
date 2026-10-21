@@ -4,14 +4,13 @@
 <style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" demote-non-dropping-particle="sort-only" initialize-with-hyphen="false" default-locale="en-US">
   <!-- changed default-locale to en-US -->
   <info>
-    <title>Institut Pertanian Bogor: Pedoman Penulisan Karya Ilmiah Edisi ke-4 (English)</title>
+    <title>Institut Pertanian Bogor: Pedoman Penyajian Tugas Akhir (English)</title>
     <!-- updated title -->
-    <title-short>IPB PPKI 4</title-short>
+    <title-short>IPB PPTA</title-short>
     <id>https://github.com/bennyistanto/csl-ipb/ipb_en.csl</id>
     <link href="https://raw.githubusercontent.com/bennyistanto/csl-ipb/master/ipb_en.csl" rel="self"/>
     <link href="http://www.zotero.org/styles/apa" rel="template"/>
-    <link href="http://ppki.staff.ipb.ac.id/unduhan/" rel="documentation"/>
-    <link href="https://drive.google.com/file/d/0B0YEuQotqd_BQVpkR0lHNHctSHM/view" rel="documentation"/>
+    <link href="https://dtptp.ipb.ac.id/ppta-english/" rel="documentation"/>
     <author>
       <name>Auriza Rahmad Akbar</name>
       <email>auriza.akbar@gmail.com</email>
@@ -22,8 +21,8 @@
     </author>
     <category citation-format="author-date"/>
     <category field="science"/>
-    <summary>IPB PPKI 4 style, Name-Year system: author-date in text, sorted in alphabetical order by author.</summary>
-    <updated>2026-10-20T16:00:00+07:00</updated>
+    <summary>IPB PPTA (2026) style, based on CSE 9th edition: name-year citations, references sorted by author.</summary>
+    <updated>2026-10-21T16:00:00+07:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -239,13 +238,13 @@
       <term name="note" form="short">n.</term>
       <term name="opus" form="short">op.</term>
       <term name="page" form="short">
-        <single>pp</single>
-        <!-- "pp" with no period for page ranges, as in the English PPKI guide -->
-        <multiple>pp</multiple>
+        <single>p</single>
+        <!-- PPTA (English): "p 290-300" and "p 54" -->
+        <multiple>p</multiple>
       </term>
       <term name="number-of-pages" form="short">
         <single>p</single>
-        <!-- total pages as "525 p", as in the English PPKI guide -->
+        <!-- total pages as "525 p", as in PPTA -->
         <multiple>p</multiple>
       </term>
       <term name="paragraph" form="short">para.</term>
@@ -281,7 +280,8 @@
       </term>
       <term name="editor">
         <single>editor</single>
-        <multiple>editors</multiple>
+        <!-- PPTA (English): "Aguirre AA, Sukumar R, editor." -->
+        <multiple>editor</multiple>
       </term>
       <term name="editorial-director">
         <single>editor</single>
@@ -295,9 +295,8 @@
       </term>
       <term name="translator">
         <single>translator</single>
-        <!-- changed "penerjemah" to "translator" -->
-        <multiple>translators</multiple>
-        <!-- changed "penerjemah" to "translators" -->
+        <!-- changed "penerjemah" to "translator"; one form for any number, as PPTA does for "editor" -->
+        <multiple>translator</multiple>
       </term>
       <term name="editortranslator">
         <single>editor &amp; translator</single>
@@ -415,7 +414,7 @@
     </terms>
   </locale>
   <macro name="editor">
-    <names variable="editor translator" delimiter="; " suffix=".">
+    <names variable="translator editor" delimiter="; " suffix=".">
       <name delimiter=", " delimiter-precedes-last="always" initialize-with="" name-as-sort-order="all" sort-separator=" "/>
       <label prefix=", "/>
     </names>
@@ -452,7 +451,7 @@
       <substitute>
         <names variable="editor"/>
         <names variable="translator"/>
-        <text variable="title-short"/>
+        <text variable="title" form="short" suffix="…"/>
       </substitute>
     </names>
   </macro>
@@ -474,8 +473,8 @@
               <date-part name="day"/>
             </date>
           </group>
-          <text variable="URL"/>
-          <!-- no label before the URL, as in the English PPKI guide -->
+          <text variable="URL" suffix="."/>
+          <!-- no label before the URL, and a period after it, as in PPTA -->
         </group>
       </if>
     </choose>
@@ -511,8 +510,13 @@
     </group>
   </macro>
   <macro name="publisher">
+    <!-- PPTA: no place of publication, except for theses and reports ("Bogor: Institut Pertanian Bogor") -->
     <group delimiter=": ">
-      <text variable="publisher-place"/>
+      <choose>
+        <if type="thesis report" match="any">
+          <text variable="publisher-place"/>
+        </if>
+      </choose>
       <text variable="publisher" suffix="."/>
     </group>
   </macro>
@@ -573,9 +577,9 @@
     <choose>
       <if is-numeric="edition">
         <group delimiter=" ">
-          <number variable="edition" form="ordinal"/>
-          <text term="edition" form="short"/>
-          <!-- changed "Ed ke-11" to "11th ed" -->
+          <!-- PPTA: "Ed 8", even for "Eighth Edition" -->
+          <text value="Ed"/>
+          <number variable="edition"/>
         </group>
       </if>
       <else>
@@ -615,7 +619,7 @@
       <text variable="locator" prefix=":"/>
     </layout>
   </citation>
-  <bibliography hanging-indent="true" et-al-min="11" et-al-use-first="10" entry-spacing="0">
+  <bibliography hanging-indent="true" et-al-min="6" et-al-use-first="5" entry-spacing="0">
     <sort>
       <key macro="author"/>
       <key macro="year-date"/>
@@ -632,14 +636,14 @@
           <if type="bill book graphic legal_case legislation motion_picture report song thesis" match="any">
             <group prefix=" " suffix="." delimiter=" ">
               <text macro="edition" suffix="."/>
-              <text variable="volume" prefix="Volume " suffix="."/>
+              <text variable="volume" prefix="Vol " suffix="."/>
               <!-- changed "Volume ke-" to "Volume " -->
               <text macro="editor" suffix="."/>
             </group>
             <text prefix=" " macro="publisher"/>
             <text prefix=" " macro="collection"/>
-            <text variable="page" prefix=" pp "/>
-            <!-- changed "hlm " to "pp ", as in the English PPKI guide -->
+            <text variable="page" prefix=" p "/>
+            <!-- changed "hlm " to "p ", as in the English PPTA -->
             <text variable="original-title" font-style="italic" prefix=" Translated from: " suffix="."/>
             <!-- changed "Terjemahan dari: " to "Translated from: " -->
             <text variable="note" prefix=" Ed. " suffix="."/>
@@ -650,15 +654,14 @@
               <group delimiter=" ">
                 <text term="in" text-case="capitalize-first" suffix=":"/>
                 <text macro="editor" suffix="."/>
-                <text variable="container-title" text-case="title" font-style="italic" suffix="."/>
-              </group>
-              <text variable="volume" prefix="Vol. " suffix="."/>
-              <text macro="edition" suffix="."/>
-              <group suffix="." delimiter=". ">
                 <choose>
                   <if type="paper-conference">
-                    <group delimiter="; ">
-                      <text variable="event" font-style="italic"/>
+                    <!-- PPTA: Title of publication or meeting; date; city, country. -->
+                    <group delimiter="; " suffix=".">
+                      <group delimiter=". ">
+                        <text variable="container-title" text-case="title" font-style="italic"/>
+                        <text variable="event" font-style="italic"/>
+                      </group>
                       <date variable="event-date" delimiter=" ">
                         <date-part name="year" suffix=" "/>
                         <date-part name="month" form="short" strip-periods="true" suffix=" "/>
@@ -667,14 +670,38 @@
                       <text variable="event-place"/>
                     </group>
                   </if>
+                  <else>
+                    <text variable="container-title" text-case="title" font-style="italic" suffix="."/>
+                  </else>
                 </choose>
+              </group>
+              <text variable="volume" prefix="Vol " suffix="."/>
+              <text macro="edition" suffix="."/>
+              <group suffix="." delimiter=". ">
                 <text macro="publisher"/>
                 <text prefix=" " macro="collection"/>
-                <text macro="pages"/>
+                <!-- PPTA: pages; [accessed date]. URL. -->
+                <group delimiter="; ">
+                  <text macro="pages"/>
+                  <choose>
+                    <if variable="URL">
+                      <choose>
+                        <if variable="DOI" match="none">
+                          <text macro="accessed-date"/>
+                        </if>
+                      </choose>
+                    </if>
+                  </choose>
+                </group>
                 <!-- abstract number: Extra "Number: <n>" -->
                 <choose>
                   <if type="paper-conference">
                     <text variable="number" prefix="Abstract no "/>
+                  </if>
+                </choose>
+                <choose>
+                  <if variable="DOI" match="none">
+                    <text variable="URL"/>
                   </if>
                 </choose>
               </group>
@@ -704,7 +731,15 @@
               <choose>
                 <if variable="volume issue page" match="any">
                   <text variable="volume" prefix=" "/>
-                  <text variable="issue" prefix="(" suffix=")"/>
+                  <choose>
+                    <!-- issue ranges with an en dash, 140(3–4); text issues in parentheses, 4(3 Supl 1) -->
+                    <if is-numeric="issue">
+                      <number variable="issue" prefix="(" suffix=")"/>
+                    </if>
+                    <else>
+                      <text variable="issue" prefix="(" suffix=")"/>
+                    </else>
+                  </choose>
                   <choose>
                     <if variable="volume issue" match="any">
                       <text variable="page" prefix=":"/>
@@ -722,10 +757,8 @@
               </group>
               <choose>
                 <if variable="DOI">
-                  <group delimiter=". ">
-                    <text macro="accessed-date"/>
-                    <text variable="DOI" prefix="doi:"/>
-                  </group>
+                  <!-- PPTA: no access date for journal articles -->
+                  <text variable="DOI" prefix="doi:"/>
                 </if>
               </choose>
               <!-- reprinted article: Extra "References: <journal. year;volume(issue):pages>" -->
@@ -736,7 +769,11 @@
       </group>
       <choose>
         <if variable="DOI" match="none">
-          <text prefix=" " macro="access"/>
+          <choose>
+            <if type="chapter paper-conference entry-dictionary entry-encyclopedia" match="none">
+              <text prefix=" " macro="access"/>
+            </if>
+          </choose>
         </if>
         <else-if type="bill book graphic legal_case legislation motion_picture report song thesis chapter paper-conference entry-dictionary entry-encyclopedia review review-book" match="any">
           <!-- books, chapters, proceedings and reports also print their DOI; every other type prints it in the journal branch -->

@@ -13,7 +13,7 @@ css           : https://cdn.jsdelivr.net/gh/kognise/water.css@latest/dist/light.
 > (Background) of the Introduction. It shows `ipb_en.csl` on real thesis text. The full thesis is at
 > [doi:10.5281/zenodo.21996372](https://doi.org/10.5281/zenodo.21996372), licensed under
 > [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). The references were taken from the thesis and cleaned for
-> CSL: access dates in ISO form and journal-article titles in sentence case, as PPKI asks.
+> CSL: access dates in ISO form and journal-article titles in sentence case, as the guide asks.
 
 # Summary {#summary .unnumbered}
 
