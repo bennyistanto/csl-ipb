@@ -1,5 +1,21 @@
 # IPB PPTA Citation Styles
 
+**IPB** = *Institut Pertanian Bogor* / *IPB University* / *Bogor Agricultural University*<br>
+**PPTA** = *Pedoman Penyajian Tugas Akhir* (Bahasa Indonesia) / *Guidelines for Writing Final Assignment* (English)
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://dtptp.ipb.ac.id/ppta-ipb/"><img src="img/ppta-cover-id.png" width="280" alt="Cover of Pedoman Penyajian Tugas Akhir, Institut Pertanian Bogor"></a><br>
+      <sub><b>Bahasa Indonesia</b>: use <code>ipb.csl</code></sub>
+    </td>
+    <td align="center">
+      <a href="https://dtptp.ipb.ac.id/ppta-english/"><img src="img/ppta-cover-en.png" width="280" alt="Cover of Guidelines for Writing Final Assignment, IPB University"></a><br>
+      <sub><b>English</b>: use <code>ipb_en.csl</code></sub>
+    </td>
+  </tr>
+</table>
+
 **Citation styles for IPB University theses, in Bahasa Indonesia and English.**
 
 [Citation Style Language](https://citationstyles.org/) (CSL) styles that format citations and reference lists the way
@@ -13,7 +29,8 @@ R Markdown and Quarto.
 > [!NOTE]
 > This is a fork of [auriza/csl-ipb-ppki](https://github.com/auriza/csl-ipb-ppki), the original IPB style by Auriza
 > Rahmad Akbar and M. Rachmatarramadhan for the earlier guide, PPKI 4. This fork adds the **English style**,
-> `ipb_en.csl`, and updates both styles to PPTA. Download both from here.
+> `ipb_en.csl`, and updates both styles to PPTA. Download both from here. It is an independent project, not an
+> official IPB publication; the guide covers above link to IPB's own pages.
 
 ## Download
 
